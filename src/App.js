@@ -38,6 +38,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
+            <h3>WhatTelescope.com</h3>
             Under construction.
           </p>
           <LambdaDemo />
