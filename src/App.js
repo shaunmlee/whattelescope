@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import ReactGA from "react-ga";
+
+function initializeReactGA() {
+  ReactGA.initialize("UA-143338995-1");
+  ReactGA.pageview("/homepage");
+}
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -47,6 +53,7 @@ class App extends Component {
           </p>
           <LambdaDemo />
         </header>
+        {initializeReactGA};
       </div>
     );
   }
