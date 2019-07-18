@@ -36,7 +36,7 @@ const CreateCard = props => {
               }}
             >
               <a href={props.telescope.url} />
-              <img border="0" src={props.telescope.img} class="center" />
+              <img border="0" src={props.telescope.img} className="center" />
             </div>
           </CardMedia>
         </Link>
