@@ -211,8 +211,10 @@ export class SiteLayout extends React.Component {
           Title
          **** */}
         <Container maxWidth="lg" style={{ paddingTop: 20 }}>
-          {/* <Typography variant={"h4"} style={myStyles.heading}> */}
-          <Typography variant={"h4"}>WhatTelescope</Typography>
+          <Typography variant={"h4"} style={myStyles.heading}>
+            {/* <Typography variant={"h4"}> */}
+            WhatTelescope
+          </Typography>
         </Container>
 
         {/* ***** 
