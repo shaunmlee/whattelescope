@@ -40,22 +40,28 @@ const CreateCard = props => {
             </div>
           </CardMedia>
         </Link>
-        <Divider variant="middle" />
-
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            <Link href={props.telescope.url}>{props.telescope.name}</Link>
-          </Typography>
-        </CardContent>
       </CardActionArea>
 
+      <Divider variant="middle" />
+
       <CardContent>
+        <div style={{ minHeight: 65 }}>
+          <Typography gutterBottom variant="h6" component="h2">
+            <Link href={props.telescope.url} target="blank">
+              {props.telescope.name}
+            </Link>
+          </Typography>
+        </div>
+        {/* </CardContent>
+
+      <CardContent> */}
         <Typography
           gutterBottom
           variant="body2"
           color="textSecondary"
           component="p"
         >
+          <p>{props.telescope.blurb}</p>
           Price: £{props.telescope.price}
         </Typography>
       </CardContent>
