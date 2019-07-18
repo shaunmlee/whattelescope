@@ -8,16 +8,6 @@ import ReactGA from "react-ga";
 const yellow = "#F2C43C";
 const lightGrey = "#F2EFF0";
 
-const theme = createMuiTheme({
-  palette: {
-    background: { paper: lightGrey, default: yellow }
-  },
-
-  typography: {
-    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
-  }
-});
-
 function initializeReactGA() {
   ReactGA.initialize("UA-143338995-1");
   ReactGA.pageview("/homepage");
@@ -55,6 +45,16 @@ class LambdaDemo extends Component {
     );
   }
 }
+
+const theme = createMuiTheme({
+  palette: {
+    background: { paper: lightGrey, default: yellow }
+  },
+
+  typography: {
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+  }
+});
 
 export class ThemedSite extends React.Component {
   render() {

@@ -2,6 +2,14 @@ import React from "react";
 import { DisplayCards } from "./displayCards";
 import Typography from "@material-ui/core/Typography";
 
+const grey = "#3F3E3A";
+const myStyles = {
+  text: {
+    color: grey,
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+  }
+};
+
 const ShowResults = props => {
   // If no options are selected tell the user to select something.
   let flag = true;

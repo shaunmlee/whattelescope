@@ -26,11 +26,16 @@ const myStyles = {
     color: grey,
     textDecoration: `underline ${darkBlue}`,
     backgroundColor: yellow,
-    flexGrow: 1
+    flexGrow: 1,
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
   },
   container: {
     backgroundColor: yellow,
     color: grey
+  },
+  text: {
+    color: grey,
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
   }
 };
 
@@ -206,9 +211,8 @@ export class SiteLayout extends React.Component {
           Title
          **** */}
         <Container maxWidth="lg" style={{ paddingTop: 20 }}>
-          <Typography variant={"h4"} style={myStyles.heading}>
-            WhatTelescope
-          </Typography>
+          {/* <Typography variant={"h4"} style={myStyles.heading}> */}
+          <Typography variant={"h4"}>WhatTelescope</Typography>
         </Container>
 
         {/* ***** 
@@ -251,7 +255,10 @@ export class SiteLayout extends React.Component {
                   id={`${panelName}bh-header`}
                 >
                   <Typography
-                    style={{ fontWeight: "bold", paddingRight: 5 }}
+                    style={{
+                      fontWeight: "bold",
+                      paddingRight: 5
+                    }}
                   >{`${stepIdx + 1}. `}</Typography>
                   <Typography>{`${title}`}</Typography>
                 </ExpansionPanelSummary>
