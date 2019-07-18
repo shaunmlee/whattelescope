@@ -1,7 +1,22 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { SiteLayout } from "./siteLayout";
+import { createMuiTheme } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
 import ReactGA from "react-ga";
+
+const yellow = "#F2C43C";
+const lightGrey = "#F2EFF0";
+
+const theme = createMuiTheme({
+  palette: {
+    background: { paper: lightGrey, default: yellow }
+  },
+
+  typography: {
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+  }
+});
 
 function initializeReactGA() {
   ReactGA.initialize("UA-143338995-1");
@@ -41,22 +56,16 @@ class LambdaDemo extends Component {
   }
 }
 
-class App extends Component {
+export class ThemedSite extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            <h1>WhatTelescope</h1>
-            Under construction. Pushed from local.
-          </p>
-          <LambdaDemo />
-        </header>
+      <React.Fragment>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <SiteLayout />
+        </ThemeProvider>
         {initializeReactGA};
-      </div>
+      </React.Fragment>
     );
   }
 }
-
-export default App;
