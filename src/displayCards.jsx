@@ -7,7 +7,7 @@ const DisplayCards = props => {
       style={{
         display: "flex",
         flexWrap: "wrap",
-        justifyContent: "space-evenly",
+        justifyContent: "space-around",
         alignContent: "flex-start"
       }}
     >
