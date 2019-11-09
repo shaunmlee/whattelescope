@@ -18,7 +18,7 @@ export function createScopes() {
   let orionXT8 = new Telescope(
     "Orion XT8",
     8,
-    347.99,
+    369.99,
     "reflector",
     "Dob",
     "free-standing",
@@ -54,7 +54,7 @@ export function createScopes() {
   let skywatcherHeritage130P = new Telescope(
     "Skywatcher Heritage130P FlexTube",
     5.1,
-    169.0,
+    159.0,
     "reflector",
     "Dob",
     "tabletop",
@@ -66,7 +66,7 @@ export function createScopes() {
   let orionFunScope76 = new Telescope(
     "Orion FunScope 76mm TableTop Reflector",
     3,
-    61.99,
+    64.99,
     "reflector",
     "Dob",
     "tabletop",
@@ -78,7 +78,7 @@ export function createScopes() {
   let orionXT6 = new Telescope(
     "Orion XT6",
     6,
-    246.99,
+    258.99,
     "reflector",
     "Dob",
     "free-standing",

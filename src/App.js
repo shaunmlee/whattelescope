@@ -52,7 +52,8 @@ const theme = createMuiTheme({
   },
 
   typography: {
-    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+    // fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Roboto Light", "Arial"'
   }
 });
 
