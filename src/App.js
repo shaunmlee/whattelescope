@@ -4,6 +4,7 @@ import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import ReactGA from "react-ga";
+import "typeface-roboto";
 
 const yellow = "#F2C43C";
 const lightGrey = "#F2EFF0";
@@ -52,8 +53,10 @@ const theme = createMuiTheme({
   },
 
   typography: {
-    // fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
     fontFamily: '"AppleSDGothicNeo-UltraLight", "Roboto Light", "Arial"'
+    // fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+    // fontFamily: '"Roboto", "Arial"'
+    // fontFamily: '"Arial"'
   }
 });
 

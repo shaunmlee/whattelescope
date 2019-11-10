@@ -13,6 +13,7 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { WTCheckbox } from "./wtCheckbox";
 import { ShowResults } from "./showResults";
+import "typeface-roboto";
 
 // CSS to control the appearance of elements.
 const yellow = "#F2C43C";
@@ -20,22 +21,33 @@ const grey = "#3F3E3A";
 const coral = "#E0493E";
 const red = "#D84E2F";
 const darkBlue = "#08415C";
+// const pink = "#F2105A";
+const pink = "#fbbac7";
+const lightGrey = "#F2EFF0";
 
 const myStyles = {
   heading: {
     color: grey,
-    textDecoration: `underline ${darkBlue}`,
+    // textDecoration: `underline ${darkBlue}`,
+    // textDecoration: `underline ${pink}`,
     backgroundColor: yellow,
     flexGrow: 1,
-    fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Roboto", "Arial"'
+    // fontFamily: '"Roboto Light", "Arial"'
+    // fontFamily: '"Roboto"'
+    // fontFamily: '"Arial"'
   },
   container: {
     backgroundColor: yellow,
     color: grey
   },
+  // Not used. See App.js for default font.
   text: {
     color: grey,
     fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
+    // fontFamily: '"Roboto Light", "Arial"'
+    // fontFamily: '"Roboto"'
+    // fontFamily: '"Arial"'
   }
 };
 
@@ -211,7 +223,7 @@ export class SiteLayout extends React.Component {
           Title
          **** */}
         <Container maxWidth="lg" style={{ paddingTop: 20 }}>
-          <Typography variant={"h4"} style={myStyles.heading}>
+          <Typography variant={"h3"} style={myStyles.heading}>
             {/* <Typography variant={"h4"}> */}
             WhatTelescope
           </Typography>
@@ -222,22 +234,23 @@ export class SiteLayout extends React.Component {
          **** */}
         <Container maxWidth="md">
           <Typography>
-            <p>Buying a telescope is confusing.</p>
             <p>
-              Whether it's deciding which is the best first telescope or you're
-              shopping for an upgrade, the choices out there can be
+              Buying a telescope is <b>confusing.</b>
+            </p>
+            <p>
+              Whether it's deciding which is the best <b>first telescope</b> or
+              you're shopping for an <b>upgrade</b>, the choices out there are
               overwhelming.
             </p>
             <p>
-              We've created a simple tool to help you choose your perfect
-              telescope.
+              We've created a <b>simple tool</b> to help you find a telescope{" "}
+              <b>you'll love.</b>
             </p>
             <p>
-              Select the type of objects you want to view, the size of the
-              telescope and your budget and get custom results that fit your
-              needs.
+              Answer the <b>3 questions</b> below and get <b>custom results</b>{" "}
+              that fit your needs.
             </p>
-            <p>Try it below.</p>
+            {/* <p>Try it below.</p> */}
           </Typography>
 
           {/* ***** 
