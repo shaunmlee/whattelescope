@@ -32,10 +32,12 @@ const myStyles = {
     // textDecoration: `underline ${pink}`,
     backgroundColor: yellow,
     flexGrow: 1,
-    fontFamily: '"AppleSDGothicNeo-UltraLight", "Roboto", "Arial"'
+    fontFamily: '"AppleSDGothicNeo-UltraLight", "Open Sans", "Arial"'
+    // fontFamily: '"AppleSDGothicNeo-UltraLight", "Roboto", "Arial"'
     // fontFamily: '"Roboto Light", "Arial"'
     // fontFamily: '"Roboto"'
     // fontFamily: '"Arial"'
+    // fontFamily: '"Open Sans"'
   },
   container: {
     backgroundColor: yellow,
