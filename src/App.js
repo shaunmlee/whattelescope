@@ -54,10 +54,20 @@ const theme = createMuiTheme({
 
   typography: {
     // fontFamily: '"AppleSDGothicNeo-UltraLight", "Roboto Light", "Arial"'
-    fontFamily: '"AppleSDGothicNeo-UltraLight", "Open Sans", "Arial"'
+    // fontFamily: '"AppleSDGothicNeo-UltraLight", "Open Sans", "Arial"'
     // fontFamily: '"AppleSDGothicNeo-UltraLight", "Arial"'
     // fontFamily: '"Roboto", "Arial"'
-    // fontFamily: '"Open Sans"'
+    fontFamily: '"Open Sans", sans-serif',
+    // fontFamily: '"Roboto"',
+    body1: {
+      fontWeight: 300
+    },
+    body2: {
+      fontWeight: 700
+    },
+    h4: {
+      fontWeight: 300
+    }
   }
 });
 

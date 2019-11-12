@@ -14,6 +14,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { WTCheckbox } from "./wtCheckbox";
 import { ShowResults } from "./showResults";
 import "typeface-roboto";
+import "./boldDefinition.css";
 
 // CSS to control the appearance of elements.
 const yellow = "#F2C43C";
@@ -32,10 +33,12 @@ const myStyles = {
     // textDecoration: `underline ${pink}`,
     backgroundColor: yellow,
     flexGrow: 1,
-    fontFamily: '"AppleSDGothicNeo-UltraLight", "Open Sans", "Arial"'
+    // fontFamily: '"AppleSDGothicNeo-UltraLight", "Open Sans", "Arial"'
     // fontFamily: '"AppleSDGothicNeo-UltraLight", "Roboto", "Arial"'
     // fontFamily: '"Roboto Light", "Arial"'
-    // fontFamily: '"Roboto"'
+    // fontFamily: '"Roboto"',
+    fontFamily: '"Open Sans", sans-serif',
+    fontWeight: 300
     // fontFamily: '"Arial"'
     // fontFamily: '"Open Sans"'
   },
@@ -226,7 +229,6 @@ export class SiteLayout extends React.Component {
          **** */}
         <Container maxWidth="lg" style={{ paddingTop: 20 }}>
           <Typography variant={"h3"} style={myStyles.heading}>
-            {/* <Typography variant={"h4"}> */}
             WhatTelescope
           </Typography>
         </Container>
@@ -237,7 +239,8 @@ export class SiteLayout extends React.Component {
         <Container maxWidth="md">
           <Typography>
             <p>
-              Buying a telescope is <b>confusing.</b>
+              Buying a telescope is{" "}
+              <b style={{ fontWeight: 600 }}>confusing.</b>
             </p>
             <p>
               Whether it's deciding which is the best <b>first telescope</b> or
