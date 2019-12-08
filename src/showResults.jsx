@@ -27,7 +27,14 @@ const ShowResults = props => {
   }
   //   Show the matching scope cards.
   else {
-    return <DisplayCards scopes={props.scopes} />;
+    return (
+      <div>
+        <Typography>
+          Click on a telescope below to purchase on Amazon.
+        </Typography>
+        <DisplayCards scopes={props.scopes} />
+      </div>
+    );
   }
 };
 

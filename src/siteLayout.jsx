@@ -239,23 +239,23 @@ export class SiteLayout extends React.Component {
         <Container maxWidth="md">
           <Typography>
             <p>
-              Buying a telescope is{" "}
-              <b style={{ fontWeight: 600 }}>confusing.</b>
-            </p>
-            <p>
-              Whether it's deciding which is the best <b>first telescope</b> or
-              you're shopping for an <b>upgrade</b>, the choices out there are
-              overwhelming.
+              Whether deciding which is the best <b>first telescope</b> or
+              shopping for an <b>upgrade</b>, the choices out there are{" "}
+              <b>overwhelming.</b>
             </p>
             <p>
               We've created a <b>simple tool</b> to help you find a telescope{" "}
               <b>you'll love.</b>
             </p>
+
             <p>
-              Answer the <b>3 questions</b> below and get <b>custom results</b>{" "}
-              that fit your needs.
+              Simply answer the <b>3 questions</b> below, get{" "}
+              <b>custom results</b> and then <b>click</b> on a <b>telescope</b>{" "}
+              to be taken straight to <b>Amazon</b> where you can{" "}
+              <b>purchase.</b>
             </p>
-            {/* <p>Try it below.</p> */}
+
+            <p>We get a small commission which helps keep the site running!</p>
           </Typography>
 
           {/* ***** 
