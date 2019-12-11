@@ -62,7 +62,7 @@ const CreateCard = props => {
           component="p"
         >
           <p>{props.telescope.blurb}</p>
-          Price: £{props.telescope.price}
+          Price: ${props.telescope.price}
         </Typography>
       </CardContent>
     </Card>

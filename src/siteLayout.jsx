@@ -15,6 +15,7 @@ import { WTCheckbox } from "./wtCheckbox";
 import { ShowResults } from "./showResults";
 import "typeface-roboto";
 import "./boldDefinition.css";
+import { ListItem } from "@material-ui/core";
 
 // CSS to control the appearance of elements.
 const yellow = "#F2C43C";
@@ -66,7 +67,7 @@ export class SiteLayout extends React.Component {
       checkboxTitles: [
         ["Planets + Moon", "Galaxies + Nebulae", "Wildlife"],
         ["Backpack", "Tabletop", "Tripod", "Free-standing"],
-        ["Less than £100", "£100-£250", "£250-500", "£500+"]
+        ["Less than $100", "$100-$250", "$250-$500", "$500+"]
       ],
       checkList: [
         [false, false, false],
@@ -248,14 +249,19 @@ export class SiteLayout extends React.Component {
               <b>you'll love.</b>
             </p>
 
+            <div style={{ paddingTop: "25px" }}>
+              <Typography variant="h5">How it works</Typography>
+            </div>
             <p>
-              Simply answer the <b>3 questions</b> below, get{" "}
-              <b>custom results</b> and then <b>click</b> on a <b>telescope</b>{" "}
-              to be taken straight to <b>Amazon</b> where you can{" "}
-              <b>purchase.</b>
+              Answer the <b>3 questions</b> below, get <b>custom results</b>{" "}
+              then <b>click on a telescope</b> to be taken straight to{" "}
+              <b>Amazon</b> where you can <b>purchase.</b>
             </p>
 
-            <p>We get a small commission which helps keep the site running!</p>
+            <p>
+              Amazon gives us a small commission which helps keep the site
+              running (and no cost to you)!
+            </p>
           </Typography>
 
           {/* ***** 
@@ -320,6 +326,9 @@ export class SiteLayout extends React.Component {
               checkedList={this.state.checkList}
             />
           </div>
+          <Typography variant="caption">
+            <p>Copyright &copy; 2019 WhatTelescope</p>
+          </Typography>
         </Container>
       </React.Fragment>
     );

@@ -18,13 +18,11 @@ export function createScopes() {
   let orionXT8 = new Telescope(
     "Orion XT8",
     8,
-    // 369.99,
-    379.99,
+    369.99,
     "reflector",
     "Dob",
     "free-standing",
-    // "https://amzn.to/2jHQzJD",
-    "https://amzn.to/38wFsre",
+    "https://amzn.to/2jHQzJD",
     "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001DDW9V6&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=whattelescope-21&language=en_GB",
     "Large aperture collects plenty of light for viewing galaxies and nebulae. Amazing value for money."
   );
@@ -32,13 +30,11 @@ export function createScopes() {
   let celestronTravelScope70 = new Telescope(
     "Celestron TravelScope 70",
     3,
-    // 68.99,
-    74.95,
+    68.99,
     "refractor",
     "AltAz",
     "backpack",
-    // "https://amzn.to/2l7rBUn",
-    "https://amzn.to/345UaSQ",
+    "https://amzn.to/2l7rBUn",
     "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001TI9Y2M&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=whattelescope-21&language=en_GB",
     "Small enough to fit into the supplied backpack."
   );
@@ -46,13 +42,11 @@ export function createScopes() {
   let celestronNexStar8 = new Telescope(
     "Celestron NexStar 8SE",
     8,
-    // 1299,
-    999,
+    1299,
     "cassergrain",
     "computerised",
     "tripod",
-    // "https://amzn.to/2XWXqN6",
-    "https://amzn.to/2YFD79d",
+    "https://amzn.to/2XWXqN6",
     "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000GUFOC8&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=whattelescope-21&language=en_GB",
     "Computerised mount makes finding nightsky objects a doddle."
   );
@@ -60,13 +54,11 @@ export function createScopes() {
   let skywatcherHeritage130P = new Telescope(
     "Skywatcher Heritage130P FlexTube",
     5.1,
-    // 159.0,
-    175.93,
+    159.0,
     "reflector",
     "Dob",
     "tabletop",
-    // "https://amzn.to/2NZbnKX",
-    "https://amzn.to/2E7rRcf",
+    "https://amzn.to/2NZbnKX",
     "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B002828HJE&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=whattelescope-21&language=en_GB",
     "Excellent beginner's scope. Collapsible tube makes storage easy."
   );
@@ -74,13 +66,11 @@ export function createScopes() {
   let orionFunScope76 = new Telescope(
     "Orion FunScope 76mm TableTop Reflector",
     3,
-    // 64.99,
     64.99,
     "reflector",
     "Dob",
     "tabletop",
-    // "https://amzn.to/2NYDudb",
-    "https://amzn.to/2qGZVIU",
+    "https://amzn.to/2NYDudb",
     "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00FM4A108&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=whattelescope-21&language=en_GB",
     "Ideal for taking your first steps into astronomy."
   );
@@ -88,13 +78,11 @@ export function createScopes() {
   let orionXT6 = new Telescope(
     "Orion XT6",
     6,
-    // 258.99,
-    269.99,
+    258.99,
     "reflector",
     "Dob",
     "free-standing",
-    // "https://amzn.to/2SmRr3i",
-    "https://amzn.to/2E7NNUr",
+    "https://amzn.to/2SmRr3i",
     "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001DDW9UW&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=whattelescope-21&language=en_GB",
     "Long focal length gives great magnification of planetary objects."
   );
@@ -102,13 +90,11 @@ export function createScopes() {
   let celestronAstroMaster102AZ = new Telescope(
     "Celestron AstroMaster 102 AZ",
     4,
-    // 169.0,
-    199.99,
+    169.0,
     "refractor",
     "AltAz",
     "tripod",
-    // "https://amzn.to/2JNr9TJ",
-    "https://amzn.to/2YEmPx0",
+    "https://amzn.to/2JNr9TJ",
     "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01E5DVONO&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=whattelescope-21&language=en_GB",
     "A wonderful introductory refractor which gives right-way-up images."
   );

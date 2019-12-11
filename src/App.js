@@ -67,6 +67,12 @@ const theme = createMuiTheme({
     },
     h4: {
       fontWeight: 300
+    },
+    caption: {
+      fontWeight: 300
+    },
+    h5: {
+      fontWeight: 300
     }
   }
 });
